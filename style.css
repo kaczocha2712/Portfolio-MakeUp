@@ -4,10 +4,14 @@
 }
 
 
+h1 {  text-align: center;
+background-color: var(--branding-color);
+font-size: 60px;
+}
 
-
-h1 {
-    text-align: center;
+h1,
+h2 {
+  
     font-family: var(--main-font-family);
     font-weight: bold;
   
@@ -24,25 +28,33 @@ h1 {
 }
 
 .button-primary {
-   display: block;
+display: block;
+justify-content: flex-end;
     background-color: var(--branding-color);
     border-color:var(--branding-color) ;
     color: black;
     border-radius: 4px;
     font-size: 18px;
     padding: 18px;
-
+    margin-bottom: 0;
 
 }
 
 .card-text {
     font-family: var(--main-font-family);
     font-weight: 400;
-    padding-bottom: 145px;
+   
 }
+
 
 .text-body-secondary {
     font-family: var(--main-font-family);
     font-weight: 400;
 }
 
+@media (max-width: 900px) {
+    .hero {
+        padding: auto;
+    }
+    
+}
