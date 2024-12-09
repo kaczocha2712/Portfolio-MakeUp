@@ -1,0 +1,48 @@
+:root {
+    --branding-color: rgb(246, 234, 204);
+    --main-font-family: "Playfair";
+}
+
+
+
+
+h1 {
+    text-align: center;
+    font-family: var(--main-font-family);
+    font-weight: bold;
+  
+}
+
+.hero {
+ background-color: var(--branding-color);
+    padding: 50px 20px;
+    
+}
+.hero p {
+    text-align: center;
+    
+}
+
+.button-primary {
+   display: block;
+    background-color: var(--branding-color);
+    border-color:var(--branding-color) ;
+    color: black;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 18px;
+
+
+}
+
+.card-text {
+    font-family: var(--main-font-family);
+    font-weight: 400;
+    padding-bottom: 145px;
+}
+
+.text-body-secondary {
+    font-family: var(--main-font-family);
+    font-weight: 400;
+}
+
